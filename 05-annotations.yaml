@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: annotations
+  labels:
+    course: k8
+    trainer: sivakumar
+  annotations:
+    kubernetes.io/created-by: 'sivakumar'
+    jenkins.build.url: 'https://jenkins.neelareddy.store/expense/job/backend/54'  
+spec:
+  containers:
+  - name: nginx
+    image: nginx
