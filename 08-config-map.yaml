@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: configMap
 metadata: 
-  name: neelareddy
+  name: neelareddy25
 data:
   course: "DevOps with AWS"
   trainer: "sivakumar"
