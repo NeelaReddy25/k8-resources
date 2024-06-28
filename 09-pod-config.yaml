@@ -9,11 +9,11 @@ spec:
     env:
     - name: course
       valueFrom:
-        configMapRef:
+        configMapKeyRef:
           name: neelareddy25
           key: course
     - name: trainer
       valueFrom:
-        configMapRef:
+        configMapKeyRef:
           name: neelareddy25
           key: trainer
